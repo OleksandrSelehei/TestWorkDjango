@@ -1,0 +1,24 @@
+body {
+    background-color: #f0f0f0; /* Цвет фона */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333; /* Цвет заголовка */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff; /* Цвет фона карточек */
+    border: 1px solid #ccc; /* Граница карточек */
+    border-radius: 5px; /* Скругленные углы */
+    margin: 10px; /* Отступ между карточками */
+    padding: 15px; /* Внутренний отступ внутри карточек */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень карточек */
+}

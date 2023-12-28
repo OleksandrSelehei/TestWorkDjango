@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Viki</title>
+    <link rel="stylesheet" href="../../static/main/css/style.css">
+</head>
+<body>
+<h1>Country List</h1>
+    <ul>
+        {% for country in countries %}
+            <li>
+                <h2>{{ country.name }}</h2>
+                <p>Capital: {{ country.capital }}</p>
+                <p>Population: {{ country.population }}</p>
+                <p>Region: {{ country.region }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
